@@ -10,7 +10,7 @@
     system = "${sys}-linux";
 
     pname = "flow-browser";
-    version = "0.8.3";
+    version = "0.12.0";
 
     src = pkgs.fetchurl {
       url = "https://github.com/MultiboxLabs/flow-browser/releases/download/v${version}/${pname}-${version}-${sys}.AppImage";
