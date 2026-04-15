@@ -14,7 +14,7 @@
 
     src = pkgs.fetchurl {
       url = "https://github.com/MultiboxLabs/flow-browser/releases/download/v${version}/${pname}-${version}-${sys}.AppImage";
-      hash = "sha256-YI3Us4aY7nKtmq16zPkE8sPigN9ttxw4/s4v+ZErgvA=";
+      hash = "sha256-ixcVp7789E+ZO33HA18csUyiRDUmxysW1XeJNL3+3Bo=";
     };
 
     appImageContents = appimageTools.extract {
